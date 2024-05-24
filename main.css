@@ -1,0 +1,72 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(142, 138, 138);
+}
+
+.nav .nav-link.active {
+    color: white;
+    background-color: black;
+}
+
+.nav .nav-link, .navbar-brand{
+    color: black;
+}
+
+.navbar-toggler {
+    background-color: rgb(65, 55, 55);
+}
+
+/*.carousel-item img {
+    width: 100%;
+}*/
+
+.carousel-item img {
+    height: 550px;
+    width: 1550px;
+}
+
+.section-title {
+    font-family: Pacifico, cursive;
+}
+
+#sobre-a-joalheria,  #fale-conosco button {
+    background-color: rgb(255, 255, 255);
+}
+
+#sob_encomenda {
+    background-color: rgb(142, 138, 138);
+}
+
+#comprar {
+    background-color: rgb(41, 126, 41);
+}
+
+#fale-conosco {
+    background-color: rgb(142, 138, 138);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+    background-color: rgb(142, 138, 138);
+}
+
+.social-links a {
+text-decoration: none;
+}
+
+@media(max-width: 767px) {
+    .carousel-item img {
+    height: 280px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #produtos {
+        width: 800px;
+    }
+}
+
